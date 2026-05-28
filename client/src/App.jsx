@@ -1,7 +1,11 @@
-import WithoutuseMemo from "./components/WithoutuseMemo";
+import UseMemoExample from "./components/UseMemoExample";
 
 function App() {
-  return <WithoutuseMemo />;
+  return (
+    <div>
+      <UseMemoExample />
+    </div>
+  );
 }
 
 export default App;
